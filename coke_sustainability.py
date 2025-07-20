@@ -12,7 +12,9 @@ st.set_page_config(
 st.markdown('''
 <style>
 body, [data-testid="stAppViewContainer"] {
-    background: #fff !important;
+    background: #fff !important; 
+    body, [data-testid="stAppViewContainer"], .block-container, .stMarkdown, .stText, p, h1, h2, h3, h4, h5, h6, div {
+    color: #000 !important;
 }
 .hero-bg {
     background: #E4002B;
