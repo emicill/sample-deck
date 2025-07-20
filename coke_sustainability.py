@@ -198,7 +198,7 @@ with tabs[3]:
         st.markdown('''
 Scientific studies show that PET bottles have a lower carbon footprint than glass, especially when recycled. Aluminum cans are highly recyclable and save 95% of the energy compared to new production. Our R&D teams are constantly innovating to make packaging even more sustainable.
         ''')
-        st.image("https://images.unsplash.com/photo-1588854337236-688f5e6e0803", use_container_width=True)
+        st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzAqJfdr52E2kTXLeSX6GhKZsnsnzeXUEU9g&s", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
 # --- Our Impact Tab ---
@@ -211,7 +211,7 @@ with tabs[4]:
 - **Water Stewardship:** Returning more water to communities than we use in our drinks.
 - **Climate Action:** Reducing emissions across our value chain.
         ''')
-        st.image("https://images.unsplash.com/photo-1603386329225-868f25a5df3d", use_container_width=True)
+        st.image("https://s3.amazonaws.com/media.mediapost.com/dam/cropped/2024/12/09/cokepackaging_U77MysV.png", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
 # --- Contact Tab ---
@@ -225,7 +225,7 @@ Have questions or want to partner with us on sustainability?
 - Phone: +1-800-GET-COKE
 - [Coca-Cola Sustainability Site](https://www.coca-colacompany.com/sustainability)
         ''')
-        st.image("https://images.unsplash.com/photo-1588854337236-688f5e6e0803", use_container_width=True)
+        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1024px-Coca-Cola_logo.svg.png", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
 # --- Footer ---
