@@ -98,7 +98,7 @@ body, [data-testid="stAppViewContainer"] {
 # --- Hero Section ---
 with st.container():
     st.markdown('<div class="hero-bg">', unsafe_allow_html=True)
-    st.image("https://1000logos.net/wp-content/uploads/2016/10/Coca-Cola-Logo.png")
+    st.image("https://freepnglogo.com/images/all_img/coke-logo-2017-76d1.png")
     st.markdown('<div class="coke-title">Coca-Cola: Smart & Sustainable</div>', unsafe_allow_html=True)
     st.markdown('<div class="coke-slogan">Packaging a Better Future, Backed by Science</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
@@ -120,7 +120,7 @@ with tabs[0]:
         st.markdown('<div class="coke-section-title">Featured Article</div>', unsafe_allow_html=True)
         col1, col2 = st.columns(2, gap="large")
         with col1:
-            st.image("https://images.unsplash.com/photo-1603386329225-868f25a5df3d", use_container_width=True)
+            st.image("https://freepnglogo.com/images/all_img/coke-logo-2017-76d1.png", use_container_width=True)
         with col2:
             st.markdown("### Why Coca-Cola Believes in Smart, Sustainable Packaging")
             st.markdown("""
@@ -137,17 +137,17 @@ with tabs[0]:
         grid_cols = st.columns(3, gap="large")
         articles = [
             {
-                "img": "https://images.unsplash.com/photo-1588854337236-688f5e6e0803",
+                "img": "https://jbecotex.com/wp-content/uploads/2025/05/rPET-bottle-manufacturing.png",
                 "title": "Are PET Bottles Sustainable?",
                 "desc": "A deep dive into the science and lifecycle of PET bottles, and why they can be a smart choice for the environment."
             },
             {
-                "img": "https://images.unsplash.com/photo-1603386329225-868f25a5df3d",
+                "img": "https://preview.redd.it/what-cools-the-fastest-glass-bottles-or-aluminium-cans-v0-xg217tfgmq5d1.jpeg?auto=webp&s=e445b83c21f48d558c32bf2d44cad04b951dfa9a",
                 "title": "Cans vs Glass: The True Environmental Cost",
                 "desc": "Comparing the carbon footprint, recyclability, and real-world impact of cans, glass, and plastic bottles."
             },
             {
-                "img": "https://images.unsplash.com/photo-1588854337236-688f5e6e0803",
+                "img": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/ae257423433081.56047f8c5846d.jpg",
                 "title": "Recycling Innovation at Coca-Cola",
                 "desc": "How Coke is investing in new recycling technologies and making it easier for consumers to close the loop."
             }
@@ -173,7 +173,7 @@ with tabs[1]:
 - Supporting community recycling initiatives
 - Making all packaging 100% recyclable by 2025
         ''')
-        st.image("https://images.unsplash.com/photo-1588854337236-688f5e6e0803", use_container_width=True)
+        st.image("https://www.coca-cola.com/content/dam/onexp/ph/en/brands/coca-cola/sustainability/What%20happens%20when%20you%20recycle%20me_updated.png", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
 # --- Packaging Facts Tab ---
@@ -187,7 +187,7 @@ with tabs[2]:
 - **PlantBottle™:** Some bottles use up to 30% plant-based materials.
 - **Lightweighting:** Coke has reduced the weight of its bottles and cans, cutting carbon emissions in transport.
         ''')
-        st.image("https://images.unsplash.com/photo-1603386329225-868f25a5df3d", use_container_width=True)
+        st.image("https://thedrum-media.imgix.net//thedrum-prod/s3/news/tmp/684567/coca-cola_x_merlin_2.jpg?w=1280&ar=default&fit=crop&crop=faces&auto=format", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
 # --- Science Behind Coke Tab ---
