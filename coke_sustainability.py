@@ -98,7 +98,7 @@ body, [data-testid="stAppViewContainer"] {
 # --- Hero Section ---
 with st.container():
     st.markdown('<div class="hero-bg">', unsafe_allow_html=True)
-    st.image("https://freepnglogo.com/images/all_img/coke-logo-2017-76d1.png")
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1024px-Coca-Cola_logo.svg.png")
     st.markdown('<div class="coke-title">Coca-Cola: Smart & Sustainable</div>', unsafe_allow_html=True)
     st.markdown('<div class="coke-slogan">Packaging a Better Future, Backed by Science</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
